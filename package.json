@@ -1,0 +1,22 @@
+{
+  "name": "qa-saucelabs-template",
+  "version": "1.0.0",
+  "description": "QA automated testing template project using saucelabs.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruthlesshelp/qa-saucelabs-template.git"
+  },
+  "main": "",
+  "scripts": {
+    "lint": "standard --verbose",
+    "integration": "mocha test",
+    "test": "npm run lint && npm run integration"
+  },
+  "author": "ruthlesshelp",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "selenium-webdriver": "^4.0.0-alpha.4",
+    "standard": "^12.0.1"
+  }
+}
